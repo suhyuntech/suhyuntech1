@@ -1,0 +1,234 @@
+/* common css */
+		html,body{width:100%;-webkit-text-size-adjust:none;min-width:1200px;}
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0;}
+		body{font-family: 'NotoSans', 'Nanum Gothic', '나눔고딕', 'Dotum', sans-serif;}
+		article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}/* HTML5 display-role reset for older browsers */
+		table {border-collapse: collapse; border-spacing: 0;}
+		img,fieldset,iframe{border: 0 none; vertical-align: top;}
+		ol, ul{list-style:none;}
+		a{text-decoration:none;color:inherit;display:block;}
+		.cf{*zoom:1}
+		.cf:after {content:'';display:block;clear:both;}
+
+		body{position:relative; padding-top:80px;}
+		#header{height:80px;box-sizing:border-box; position:fixed; top:0; width:100%; z-index:99;background:rgba(255,255,255,0.7); border-bottom:1px solid #eee;}
+		#header h1{padding-top:20px;float:left;}
+		#header nav{float:right;}
+		#header nav li{height:20px; line-height:20px; padding-top:30px; display:inline-block;font-size:17px; margin-left:35px; float:left;}
+		#header nav li:first-child{margin-left:0;}
+		#header .top_i{position:absolute; right:0; top:17px;}
+		#footer{padding:20px 0 0;background:#d1e3e8; font-size:14px; line-height:22px;font-weight:400;position:relative; text-align:center;}
+		#footer .wrap{position:relative;}
+		#footer .wrap .ft_logo{display:block; margin:0 auto 10px;padding-top:5px;}
+		#footer .wrap .ft_box{display:inline-block;padding-left:20px;}
+		#footer .wrap .ft_box ul li{display:inline-block; margin-left:15px;}
+		#footer .wrap .ft_box ul li:first-child{margin-left:0;}
+		#footer .wrap .ft_box .ft_t2{padding-left:20px; background:url("../images/ft_icon.png") left center no-repeat; color:#eb5a4f; margin-top:20px; }
+		#footer .wrap .ft_box img{height:30px; margin-right:5px;}
+		#footer a{display:inline-block;}
+		.copyright{display:block; background:#000; color:#7b7c7c; margin-top:20px; line-height:36px; font-weight:400;text-align:center;}
+		.f_logo{margin-bottom:20px;}
+		.g_logo{position:absolute;right:0; bottom:0; width:77px; }
+		.btn_top{position:absolute; top:20px; right:20px;}
+	
+
+
+		.wrap{width:1100px; display:block; margin:auto; position:relative; }
+		.flexslider{overflow:hidden;}
+		
+		.fl{float:left;}
+		.fr{float:right;}
+		
+		.sub_tit{padding-bottom:20px; text-align:center; font-size:30px; font-weight:bold; margin-bottom:30px; position:relative;}
+		.sub_tit:before{content:""; display:block; width:58px; height:4px; background:#f7e90c; margin:auto; position:absolute; bottom:0; left:50%; margin-left:-29px;}
+		
+		#alltalk{margin-bottom:80px;}
+		#alltalk .tit_i1{display:block; margin:60px auto 20px;}
+		#alltalk h2.tit{font-size:55px; font-weight:800; text-align:center;}
+		#alltalk .walkie_stit{font-size:30px; font-weight:500; position:relative; text-align:center; width:812px; margin:30px auto 50px; }
+		#alltalk .alltalk_box1{width:100%; height:587px; background:url("../images/alltalk_i1.jpg") 50% 50% no-repeat; position:relative; margin-bottom:90px;}
+		#alltalk .alltalk_box1 .video{position:absolute; width:42%; left:0; bottom:30px; text-align:center;}
+		#alltalk .alltalk_box1 .video a{width:300px; height:40px; line-height:40px; color:#fff; font-weight:bold; font-size:18px; border-radius:10px; background:#525252; text-align:center; display:inline-block;}
+		#alltalk .alltalk_box1 .t_wrap h2{font-size:55px; font-weight:800;}
+		#alltalk .alltalk_box2 .alltalk_spec .w50{width:50%; float:left;}
+		#alltalk .alltalk_box2 .alltalk_spec .alltalk_logo{text-align:right;}
+		#alltalk .alltalk_box2 .alltalk_spec .tbox{box-sizing:border-box; padding-left:20px;}
+		#alltalk .alltalk_box2 .alltalk_spec .tbox caption{display:block; width:1px; height:1px; overflow:hidden;}
+		#alltalk .alltalk_box2 .alltalk_spec table{width:100%; border-bottom:1px solid #000; margin-top:20px;}
+		#alltalk .alltalk_box2 .alltalk_spec table tbody tr:first-child th, #alltalk .alltalk_box2 .alltalk_spec table tbody tr:first-child td{border-top:1px solid #000; }
+		#alltalk .alltalk_box2 .alltalk_spec table td{color:#666666;}
+		#alltalk .alltalk_box2 .alltalk_spec table th{line-height:36px; border-right:1px solid #777;font-weight:500; }
+		#alltalk .alltalk_box2 .alltalk_spec table th, #alltalk .alltalk_box2 .alltalk_spec table td{border-bottom:1px solid #777; text-align:left; padding-left:15px;}
+		#alltalk .alltalk_box2 .alltalk_icon_wrap {margin-top:25px; margin-bottom:110px;}
+		#alltalk .alltalk_box2 .alltalk_icon_wrap .icon_box{display:inline-block; float:left;width:117px; text-align:center; margin-left:23px; line-height:1.2;}
+		#alltalk .alltalk_box2 .alltalk_icon_wrap .icon_box:first-child{margin-left:0;}
+		#alltalk .alltalk_box2 .alltalk_icon_wrap .icon_box .icon_t{margin-top:10px; }
+		#alltalk .alltalk_box2 .alltalk_icon_wrap .icon_box .icon_t.line1{line-height:38px;}
+		#alltalk .alltalk_bg{background:url("../images/alltalk_bg.jpg") 50% 50% no-repeat; color:#fff;padding:80px 0 60px; text-align:center; background-size:cover;}
+		#alltalk .alltalk_bg .alltalk_t2_s1{font-size:18px; margin-bottom:20px;}
+		#alltalk .alltalk_bg .alltalk_t2_s2 span{color:#ff9c00; }
+		#alltalk .alltalk_bg .alltalk_t2_s1, #alltalk .alltalk_bg .alltalk_t2_s2{line-height:1.2;}
+		#alltalk .alltalk_bg .alltalk_t2_s2{margin-bottom:40px;}
+		#alltalk .alltalk_bg .icon_wrap{text-align:center;}
+		#alltalk .alltalk_bg .icon_wrap img{margin:0 12px;}
+		#alltalk .alltalk_gal{max-width:1920px; display:block; margin:-1px auto 105px; }
+		#alltalk .alltalk_gal img{float:left; width:25%;}
+		#alltalk .alltalk_tech{margin-bottom:50px;}
+		#alltalk .alltalk_tech .tech_i{display:inline-block; float:left; margin-right:20px; width:540px;}
+		#alltalk .alltalk_tech .tech_tbox{width:540px; display:inline-block; float:left;}
+		#alltalk .alltalk_tech .tech_tbox h4.tit{font-size:24px; line-height:1; margin-bottom:15px;}
+		#alltalk .alltalk_tech .tech_tbox h4.tit span{font-size:18px; color:#525252; font-weight:400; }
+		#alltalk .alltalk_tech .tech_tbox p{margin-bottom:50px;}
+		#alltalk .advantage_wrap .advantage_box{width:538px;float:left; text-align:center; margin-left:24px; margin-bottom:60px;}
+		#alltalk .advantage_wrap .advantage_box:nth-child(2n-1){margin-left:0;}
+		#alltalk .advantage_wrap .advantage_box .i_box{height:330px; overflow:hidden;}
+		#alltalk .advantage_wrap .advantage_box img{width:100%;}
+		#alltalk .advantage_wrap .advantage_box .t_box{height:120px; display:table; width:100%; border-bottom:2px solid #525252;}
+		#alltalk .advantage_wrap .advantage_box .t_box > div{display:table-cell; vertical-align:middle; }
+		#alltalk .advantage_wrap .advantage_box .t_box > div .tit{font-size:24px; font-weight:bold;}
+
+		#walkie{margin-bottom:80px; padding-top:100px;border-top:2px solid #525252;}
+		#walkie .info .tit_i{display:block; margin:0 auto 20px;}
+		#walkie .info h2.tit{font-size:55px; font-weight:800; text-align:center;}
+		#walkie .info .walkie_stit{font-size:30px; font-weight:500; position:relative; text-align:center; width:812px; margin:50px auto; }
+		#walkie .info .walkie_stit:before{content:"";position:absolute; width:24px; height:21px; background:url("../images/walkie_si1.png") 50% 50% no-repeat; left:0; top:50%; margin-top:-10px;}
+		#walkie .info .walkie_stit:after{content:"";position:absolute; width:24px; height:21px; background:url("../images/walkie_si2.png") 50% 50% no-repeat; right:0; top:50%; margin-top:-10px;}
+		#walkie .info .walkie_spec .w50{width:50%; float:left;}
+		#walkie .info .walkie_spec .w50.tbox{box-sizing:border-box; padding-left:15px;}
+		#walkie .info .walkie_spec .w50.tbox .silenton_logo{text-align:right; margin-top:30px;}
+		#walkie .info .walkie_spec .w50.tbox table{width:100%; border-bottom:1px solid #000; margin-top:20px;}
+		#walkie .info .walkie_spec .w50.tbox caption{display:block; width:1px; height:1px; overflow:hidden;}
+		#walkie .info .walkie_spec .w50.tbox table tbody tr:first-child th, #walkie .info .walkie_spec .w50.tbox table tbody tr:first-child td{border-top:1px solid #000; }
+		#walkie .info .walkie_spec .w50.tbox table td{color:#666666;}
+		#walkie .info .walkie_spec .w50.tbox table th{line-height:36px; border-right:1px solid #777;font-weight:500; }
+		#walkie .info .walkie_spec .w50.tbox table th, #walkie .info .walkie_spec .w50.tbox table td{border-bottom:1px solid #777; text-align:left; padding-left:15px;}
+		#walkie .alltalk_icon_wrap {width:817px; display:block; margin:25px auto 110px;}
+		#walkie .alltalk_icon_wrap .icon_box{display:inline-block; float:left;width:117px; text-align:center; margin-left:23px; line-height:1.2;}
+		#walkie .alltalk_icon_wrap .icon_box:first-child{margin-left:0;}
+		#walkie .alltalk_icon_wrap .icon_box .icon_t{margin-top:10px; letter-spacing:-0.3px;}
+		#walkie .alltalk_icon_wrap .icon_box .icon_t.line1{line-height:38px;}
+		#walkie .walkie_bg{background:url("../images/walkie_bg.jpg") 50% 50% no-repeat; background-size:cover; padding-top:50px;}
+		#walkie .walkie_gal img{float:left;}
+
+		#transceiver {margin-bottom:80px;padding-top:100px; border-top:2px solid #525252;}
+		#transceiver .tit_i1{display:block; margin:0 auto 10px;}
+		#transceiver h2.tit{font-size:55px; font-weight:800; text-align:center; margin-bottom:30px;}
+		#transceiver h3.stit{font-size:30px; font-weight:600; text-align:center; margin-bottom:20px;}
+		#transceiver .silenton_t1{text-align:center;font-size:18px; margin-bottom:60px;}
+		#transceiver .silenton_t1 span.t_o{color:#ff9c00;}
+		#transceiver .silenton_spec .w50{width:50% ;float:left;}
+		#transceiver .silenton_spec .silenton_logo{text-align:right; margin-bottom:15px; margin-top:20px;}
+		#transceiver .silenton_spec .w50.tbox{box-sizing:border-box; padding-left:20px;}
+		#transceiver .silenton_spec .w50.tbox table{width:100%; border-bottom:1px solid #000; margin-top:20px;}
+		#transceiver .silenton_spec .w50.tbox caption{display:block; width:1px; height:1px; overflow:hidden;}
+		#transceiver .silenton_spec .w50.tbox table tbody tr:first-child th, #transceiver .silenton_spec .w50.tbox table tbody tr:first-child td{border-top:1px solid #000; }
+		#transceiver .silenton_spec .w50.tbox table td{color:#666666;}
+		#transceiver .silenton_spec .w50.tbox table th{line-height:36px; border-right:1px solid #777;font-weight:500; }
+		#transceiver .silenton_spec .w50.tbox table th, #transceiver .silenton_spec .w50.tbox table td{border-bottom:1px solid #777; text-align:left; padding-left:15px;}
+		#transceiver .silenton_spec .w50.ibox {position:relative;}
+		#transceiver .silenton_spec .w50.ibox a{width:300px; height:40px; line-height:40px; color:#fff; font-weight:bold; font-size:18px; border-radius:10px; background:#525252; text-align:center; display:inline-block; position:absolute; left:50%; margin-left:-150px; bottom:0;}
+		#transceiver .alltalk_icon_wrap {width:957px; display:block; margin:45px auto 110px;}
+		#transceiver .alltalk_icon_wrap .icon_box{display:inline-block; float:left;width:117px; text-align:center; margin-left:23px; line-height:1.2;}
+		#transceiver .alltalk_icon_wrap .icon_box:first-child{margin-left:0;}
+		#transceiver .alltalk_icon_wrap .icon_box .icon_t{margin-top:10px; letter-spacing:-0.3px;}
+		#transceiver .alltalk_icon_wrap .icon_box .icon_t.over_area{position:absolute; margin-left:-10px;}
+		#transceiver .alltalk_icon_wrap .icon_box .icon_t.line1{line-height:38px;}
+		#transceiver .silenton_i2{display:block; margin:auto; width:100%; min-width:1100px;}
+		#transceiver .info2 {padding-top:80px;}
+		#transceiver .info2 .card_box{display:inline-block; float:left;width:527px; height:524px; margin-left:46px; margin-bottom:60px; box-shadow:0px 0px 5px rgba(0,0,0,0.2);}
+		#transceiver .info2 .card_box:nth-child(2n-1){margin-left:0;}
+		#transceiver .info2 .card_box .t_wrap{box-sizing:border-box; padding:20px 15px;}
+		#transceiver .info2 .card_box .t_wrap .tit{font-size:24px; font-weight:bold; line-height:1; margin-bottom:15px;}
+		#transceiver .info2 .card_box .t_wrap .stit{font-size:18px; border-bottom:1px solid #000; line-height:1.2; padding-bottom:15px; margin-bottom:15px;}
+		#transceiver .info2 .card_box .t_wrap .detail{color:#666666; line-height:1.2;}
+		#transceiver .silenton_t2{text-align:center; margin:50px 0; font-size:36px; }
+		#transceiver .silenton_t2 span{font-weight:600;}
+
+		#earplug {margin-bottom:80px;padding-top:100px; border-top:2px solid #525252;}
+		#earplug .tit_i1{display:block; margin:0 auto 10px;}
+		#earplug h2.tit{font-size:55px; font-weight:800; text-align:center; margin-bottom:30px;}
+		#earplug h3.stit{font-size:30px; font-weight:600; text-align:center; margin-bottom:20px;}
+		#earplug .earplug_t1{text-align:center;font-size:18px; margin-bottom:60px;}
+		#earplug .earplug_t1 span.t_o{color:#ff9c00;}
+		#earplug .earplug_spec .w50{float:left; width:50%;}
+		#earplug .earplug_spec .w50.tbox{box-sizing:border-box; padding-left:20px;}
+		#earplug .earplug_spec .w50.tbox .alltalk_logo{text-align:right; margin-bottom:15px; margin-top:15px;}
+		#earplug .earplug_spec .w50.tbox table{width:100%; border-bottom:1px solid #000; margin-top:20px;}
+		#earplug .earplug_spec .w50.tbox caption{display:block; width:1px; height:1px; overflow:hidden;}
+		#earplug .earplug_spec .w50.tbox table tbody tr:first-child th, #earplug .earplug_spec .w50.tbox table tbody tr:first-child td{border-top:1px solid #000; }
+		#earplug .earplug_spec .w50.tbox table td{color:#666666;}
+		#earplug .earplug_spec .w50.tbox table th{line-height:36px; border-right:1px solid #777;font-weight:500; }
+		#earplug .earplug_spec .w50.tbox table th, #earplug .earplug_spec .w50.tbox table td{border-bottom:1px solid #777; text-align:left; padding-left:15px;}
+		#earplug .earplug_spec .w50.ibox a{width:300px; height:40px; line-height:40px; color:#fff; font-weight:bold; font-size:18px; border-radius:10px; background:#525252; text-align:center; margin:15px auto 0; display:block;}
+		#earplug .earplug_i2_wrap, #earplug .earplug_i2_wrap2{position:relative; margin:50px 0;}
+		#earplug .earplug_i2_wrap .sub_tit{position:absolute; width:100%; top:30px;}
+		#earplug .earplug_i2_wrap2{margin-bottom:80px;}
+		#earplug .earplug_i2_wrap .tbox{width:45%; position:absolute; right:0; bottom:30px; color:#fff;}
+		#earplug .earplug_i2_wrap2 .tbox2{position:absolute; left:0; top:30px;width:100%;}
+		#earplug .alltalk_icon_wrap {width:817px; display:block; margin:25px auto 110px;}
+		#earplug .alltalk_icon_wrap .icon_box{display:inline-block; float:left;width:117px; text-align:center; margin-left:23px; line-height:1.2;}
+		#earplug .alltalk_icon_wrap .icon_box:first-child{margin-left:0;}
+		#earplug .alltalk_icon_wrap .icon_box .icon_t{margin-top:10px; letter-spacing:-0.3px;}
+		#earplug .alltalk_icon_wrap .icon_box .icon_t.line1{line-height:38px;}
+		#earplug .earplug_t2{text-align:center; font-size:18px; margin-bottom:40px;}
+		#earplug .earplug_i4{margin-bottom:45px;}
+		#earplug .earplug_info{width:784px; display:block; margin:auto;position:relative;margin-bottom:90px;}
+		#earplug .earplug_info:before{content:""; display:block; width:1px; height:90%; top:5%; left:50%; background:#777;position:absolute;}
+		#earplug .earplug_info .w50{width:50%; float:left;}
+		#earplug .earplug_info .w50 img{display:block; margin:auto;}
+		#earplug .earplug_info .w50 .earplug_t3{text-align:center; margin-top:40px; font-size:18px;}
+		#earplug .earplug_app .app_info .thumb1, #earplug .earplug_app .list{float:left;}
+		#earplug .earplug_app .list {padding-top:20px;}
+		#earplug .earplug_app .list ul{margin-bottom:40px;}
+		#earplug .earplug_app .list li {line-height:40px;font-size:24px; margin-bottom:25px;}
+		#earplug .earplug_app .list li:after{content:""; clear:both; display:block;}
+		#earplug .earplug_app .list li span{display:inline-block; width:40px; height:40px; font-weight:bold;color:#fff; background:#ff9c00;text-align:center; border-radius:20px; float:left; margin-right:15px}
+		#earplug .earplug_iwrap3{margin:50px 0;}
+		#earplug .earplug_iwrap3 img{float:left;}
+		#earplug .earplug_iwrap3:after{content:"";display:block; clear:both;}
+
+
+		/* 메인 슬라이드 */
+		.flexslider .flex-control-nav li{margin:0px 3px;}
+		.flexslider{overflow:hidden;}
+		.flexslider .flex-control-paging li a.flex-active, .flexslider .flex-control-paging li a:hover{background:#e40613; }
+		.flexslider .flex-control-paging li a{background:#fff; box-shadow:0 0 0;}
+		.flexslider .flex-direction-nav a:before {
+		content:"";
+		width:46px; height:46px; background:url("../images/prev_btn0.png") 50% 50% no-repeat;
+		display:block;
+		background-size: contain;
+		}
+		.flexslider .flex-direction-nav a.flex-next:before {
+			content:"";
+			width:46px; height:46px; background:url("../images/next_btn0.png") 50% 50% no-repeat;
+			display:block;
+			background-size: contain;
+		}
+		.flexslider .flex-direction-nav a{width:46px; height:46px; opacity:1;}
+		.flexslider .flex-direction-nav a.flex-next{right:0; opacity:1;}
+		.flexslider:hover .flex-direction-nav a.flex-next{right:0;opacity:1;}
+		.flexslider .flex-direction-nav a.flex-prev{left:0;opacity:1;}
+		.flexslider:hover .flex-direction-nav a.flex-prev{left:0;opacity:1;}
+		
+		.flexslider2{width:1192px; margin-left:-46px; box-sizing:border-box; padding:0 20px; background:transparent;}
+		.flexslider2 .flex-viewport{width:1100px;margin:auto;}
+		.flexslider2 .flex-direction-nav a.flex-next{right:0px; opacity:1 !important;}
+		.flexslider2:hover .flex-direction-nav a.flex-next{right:0px;opacity:1}
+		.flexslider2 .flex-direction-nav a.flex-prev{left:0px;opacity:1 !important; }
+		.flexslider2:hover .flex-direction-nav a.flex-prev{left:0px;opacity:1}
+
+		.flexslider3{width:425px;display:inline-block;}
+		.flexslider3 .flex-direction-nav a.flex-next{right:0; opacity:1}
+		.flexslider3:hover .flex-direction-nav a.flex-next{right:0;opacity:1}
+		.flexslider3 .flex-direction-nav a.flex-prev{left:0;opacity:1}
+		.flexslider3:hover .flex-direction-nav a.flex-prev{left:0;opacity:1}
+
+		.flexslider2 .flex-direction-nav a, .flexslider3 .flex-direction-nav a{width:36px; height:36px;}
+		.flexslider2 .flex-direction-nav a.flex-next:before, .flexslider3 .flex-direction-nav a.flex-next:before{width:36px; height:36px; background:url("../images/flex3_next.png") 50% 50% no-repeat;}
+		.flexslider2 .flex-direction-nav a.flex-prev:before, .flexslider3 .flex-direction-nav a.flex-prev:before{width:36px; height:36px; background:url("../images/flex3_prev.png") 50% 50% no-repeat;}
+
+		.flexslider4 .flex-control-paging li a{background:#cfcfcf;}
+		.flexslider4 .flex-control-nav{bottom:-10px;}
+
+	
